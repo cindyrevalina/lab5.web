@@ -33,6 +33,9 @@
 * `console.log()` menampilkan pesan di konsol pengembang (untuk debugging).
 
 📸 **Screenshot Hasil:**
+
+
+
 <img width="448" height="284" alt="Screenshot 2025-10-21 200724" src="https://github.com/user-attachments/assets/49a5c9f1-ceb7-448a-9051-859a03728b58" />
 
 
@@ -158,8 +161,9 @@ Menampilkan operasi matematika dasar dengan dua variabel `a` dan `b`.
 
 📸 **Screenshot Hasil:**
 
-> <img src="picture/if_else1.png">
-> <img src="picture/if_else2.png">
+
+<img width="767" height="319" alt="Screenshot 2025-10-21 202211" src="https://github.com/user-attachments/assets/e50fcccf-4f87-4e7d-bca9-cc3fadf0da65" />
+
 > ---
 
 ---
@@ -185,8 +189,10 @@ Menampilkan operasi matematika dasar dengan dua variabel `a` dan `b`.
 
 📸 **Screenshot Hasil:**
 
-> <img src="picture/switch.png">
-> <img src="picture/switch2.png">
+
+
+
+
 > ---
 
 ---
@@ -276,7 +282,7 @@ Menampilkan operasi matematika dasar dengan dua variabel `a` dan `b`.
   <title>CheckBox Otomatis</title>
 </head>
 <body>
-  <h2>Pilih Makanan Favorit:</h2>
+  <h2>daftar menu makanan:</h2>
 
   <input type="checkbox" name="makanan" value="Nasi Goreng" onclick="hitungTotal()"> pecel lele <br>
   <input type="checkbox" name="makanan" value="Bakso" onclick="hitungTotal()"> Bakso <br>
