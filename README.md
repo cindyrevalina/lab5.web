@@ -33,7 +33,7 @@
 * `console.log()` menampilkan pesan di konsol pengembang (untuk debugging).
 
 📸 **Screenshot Hasil:**
-<img src="picture/La5_javascript.png">
+<img src="gambar/Lab5_javascript.png"
 
 ---
 
