@@ -33,7 +33,7 @@
 * `console.log()` menampilkan pesan di konsol pengembang (untuk debugging).
 
 📸 **Screenshot Hasil:**
-<img src="gambar/<img width="448" height="284" alt="Screenshot 2025-10-21 200724" src="https://github.com/user-attachments/assets/49a5c9f1-ceb7-448a-9051-859a03728b58" />
+<img width="448" height="284" alt="Screenshot 2025-10-21 200724" src="https://github.com/user-attachments/assets/49a5c9f1-ceb7-448a-9051-859a03728b58" />
 
 
 ---
@@ -53,8 +53,9 @@
 
 📸 **Screenshot Hasil:**
 
-> <img src="picture/alert1.png">
-><img src="picture/alert2.png">
+
+<img width="566" height="267" alt="Screenshot 2025-10-21 200923" src="https://github.com/user-attachments/assets/a2dc59ea-abd5-4353-85a8-98260f6972c2" />
+
 > ---
 
 ---
