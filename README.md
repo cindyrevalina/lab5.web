@@ -1,9 +1,16 @@
 # 🧩 Lab 5 - JavaScript Dasar
+
 Nama           : Cindy Revalina Simanullang
+
 Nim            : 312410417
+
 Kelas          : TI 24 A3
+
 Mata Kuliah    : Pemograman web 1
+
 Dosen pengampu : Agung Nugroho, S.Kom., M.Kom
+
+
 
 Repository ini berisi kumpulan **latihan dasar JavaScript (Lab 5)** yang digunakan untuk memahami konsep dasar pemrograman JavaScript, termasuk penggunaan variabel, operator, fungsi, kondisi, dan form.
 
@@ -25,7 +32,8 @@ Repository ini berisi kumpulan **latihan dasar JavaScript (Lab 5)** yang digunak
 ## 1. lab5_javascript.html
 File ini berisi kumpulan latihan utama dari JavaScript dasar, yang memanggil berbagai fungsi latihan untuk dijalankan di browser.
 
-![lab5_javascript](gambar/lab5_javascript.png)
+![lab5_javascript](gambar/lab5_javascript.png)<img width="448" height="284" alt="Screenshot 2025-10-21 200724" src="https://github.com/user-attachments/assets/f510129e-3489-4009-bf61-74d9c42004b0" />
+
 
 ---
 
