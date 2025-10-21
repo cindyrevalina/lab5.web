@@ -1,385 +1,119 @@
-# 🌐 Praktikum 5 – JavaScript
-🏫 **Universitas Pelita Bangsa**
+# 🧩 Lab 5 - JavaScript Dasar
+Nama           : Cindy Revalina Simanullang
+Nim            : 312410417
+Kelas          : TI 24 A3
+Mata Kuliah    : Pemograman web 1
+Dosen pengampu : Agung Nugroho, S.Kom., M.Kom
 
-🧑 **Nama:** Cindy Revalina Simanullang
+Repository ini berisi kumpulan **latihan dasar JavaScript (Lab 5)** yang digunakan untuk memahami konsep dasar pemrograman JavaScript, termasuk penggunaan variabel, operator, fungsi, kondisi, dan form.
 
-🆔 **NIM:** 312410417
-
-💻 **Kelas:** TI.24.A3
-
-👨‍💻 **Mata Kuliah:** Pemrograman Web
-
-📅 **Dosen Pengampu:** Agung Nugroho, S.Kom., M.Kom
-
----
-## ⚙️ Langkah-Langkah Praktikum
-
----
-
-### 🧾 **1️⃣ Pengenalan JavaScript**
-
-**File:** `latihan1_hello.html`
-
-```html
-<script>
-  document.write("Hello World<br>");
-  console.log("Hello World dari console browser");
-</script>
-```
-
-📘 **Penjelasan:**
-
-* `document.write()` menampilkan teks langsung di halaman web.
-* `console.log()` menampilkan pesan di konsol pengembang (untuk debugging).
-
-📸 **Screenshot Hasil:**
-
-
-
-<img width="448" height="284" alt="Screenshot 2025-10-21 200724" src="https://github.com/user-attachments/assets/49a5c9f1-ceb7-448a-9051-859a03728b58" />
-
+## 📘 Daftar Isi
+1. [lab5_javascript.html](#1-lab5_javascripthtml)
+2. [javascript dasar.html](#2-javascript-dasarhtml)
+3. [method dalam objek.html](#3-method-dalam-objekhtml)
+4. [pemakaian prompt.html](#4-pemakaian-prompthtml)
+5. [pembuatan fungsi.html](#5-pembuatan-fungsihmtl)
+6. [aritmatika.html](#6-aritmatikahtml)
+7. [if-else.html](#7-if-elsehtml)
+8. [operator switch.html](#8-operator-switchhtml)
+9. [form input.html](#9-form-inputhtml)
+10. [form button.html](#10-form-buttonhtml)
+11. [checkbox.html](#11-checkboxhtml)
 
 ---
 
-### 🔔 **2️⃣ Alert**
+## 1. lab5_javascript.html
+File ini berisi kumpulan latihan utama dari JavaScript dasar, yang memanggil berbagai fungsi latihan untuk dijalankan di browser.
 
-**File:** `latihan2_alert.html`
-
-```html
-<script>
-  window.alert("Selamat datang di Praktikum JavaScript!");
-</script>
-```
-
-📘 **Penjelasan:**
-`alert()` menampilkan jendela popup berisi pesan kepada pengguna.
-
-📸 **Screenshot Hasil:**
-
-
-<img width="566" height="267" alt="Screenshot 2025-10-21 200923" src="https://github.com/user-attachments/assets/a2dc59ea-abd5-4353-85a8-98260f6972c2" />
-
-> ---
+![lab5_javascript](gambar/lab5_javascript.png)
 
 ---
 
-### 💬 **3️⃣ Prompt Input**
+## 2. javascript dasar.html
+Menjelaskan penggunaan dasar JavaScript seperti menulis script di dalam tag `<script>`, menampilkan teks, dan interaksi awal dengan pengguna melalui `alert()`.
 
-**File:** `latihan3_prompt.html`
-
-```html
-<script>
-  var nama = prompt("Masukkan nama Anda:");
-  document.write("Halo, " + nama);
-</script>
-```
-
-📘 **Penjelasan:**
-
-* `prompt()` meminta input dari pengguna.
-* Hasil input disimpan dalam variabel `nama`.
-* Ditampilkan kembali ke halaman dengan `document.write()`.
-
-📸 **Screenshot Hasil:**
-
-
-<img width="282" height="218" alt="Screenshot 2025-10-21 201433" src="https://github.com/user-attachments/assets/e116b884-2c47-4c31-937e-b12cd9bf744d" />
-
-> ---
+![javascript dasar](gambar/javascript%20dasar.png)
 
 ---
 
-### ⚙️ **4️⃣ Fungsi JavaScript**
+## 3. method dalam objek.html
+Menunjukkan cara membuat **objek** dalam JavaScript serta menambahkan **method (fungsi di dalam objek)**.  
+Contohnya, membuat objek dengan properti dan method yang bisa dipanggil melalui `object.method()`.
 
-**File:** `latihan4_fungsi.html`
-
-```html
-<script>
-  function sapa() {
-    alert("Halo! Ini fungsi JavaScript dipanggil dari tombol.");
-  }
-</script>
-
-<button onclick="sapa()">Klik Saya</button>
-```
-
-📘 **Penjelasan:**
-Fungsi `sapa()` dibuat menggunakan keyword `function` dan dijalankan lewat event `onclick`.
-
-📸 **Screenshot Hasil:**
-
-
-<img width="767" height="319" alt="Screenshot 2025-10-21 202211" src="https://github.com/user-attachments/assets/18f2a98a-448a-42c1-8fcd-75f80a4dd03c" />
-
-> ---
+![method dalam objek](gambar/method%20dalam%20objek.png)
 
 ---
 
-### ➗ **5️⃣ Operasi Aritmatika**
+## 4. pemakaian prompt.html
+Menampilkan contoh penggunaan fungsi `prompt()` untuk menerima input dari pengguna dan menampilkannya kembali dengan `document.write()`.
 
-**File:** `latihan5_aritmatika.html`
-
-```html
-<script>
-  let a = 10, b = 5;
-  document.write("Penjumlahan: " + (a + b) + "<br>");
-  document.write("Pengurangan: " + (a - b) + "<br>");
-  document.write("Perkalian: " + (a * b) + "<br>");
-  document.write("Pembagian: " + (a / b) + "<br>");
-</script>
-```
-
-📘 **Penjelasan:**
-Menampilkan operasi matematika dasar dengan dua variabel `a` dan `b`.
-
-📸 **Screenshot Hasil:**
-
-
-<img width="357" height="329" alt="Screenshot 2025-10-21 202909" src="https://github.com/user-attachments/assets/9c5367f4-165d-4cb2-a3a1-4bf2384c3218" />
-
-> ---
+![pemakaian prompt](gambar/pemakaian%20prompt.png)
 
 ---
 
-### ⚖️ **6️⃣ Seleksi Kondisi (If...Else)**
+## 5. pembuatan fungsi.html
+Menjelaskan cara membuat dan memanggil **fungsi** (function) di JavaScript.  
+Fungsi digunakan untuk mengelompokkan perintah agar mudah digunakan ulang.
 
-**File:** `latihan6_if_else.html`
-
-```html
-<script>
-  let nilai = prompt("Masukkan nilai Anda:");
-  if (nilai >= 70) {
-    alert("Selamat, Anda Lulus!");
-  } else {
-    alert("Maaf, Anda Belum Lulus.");
-  }
-</script>
-```
-
-📘 **Penjelasan:**
-`if...else` digunakan untuk pengambilan keputusan berdasarkan kondisi logika.
-
-📸 **Screenshot Hasil:**
-
-
-<img width="767" height="319" alt="Screenshot 2025-10-21 202211" src="https://github.com/user-attachments/assets/e50fcccf-4f87-4e7d-bca9-cc3fadf0da65" />
-
-> ---
+![pembuatan fungsi](gambar/pembuatan%20fungsi.png)
 
 ---
 
-### 🔄 **7️⃣ Switch Case**
+## 6. aritmatika.html
+Menunjukkan penggunaan **operator aritmatika** (`+`, `-`, `*`, `/`, `%`) untuk melakukan perhitungan dasar dalam JavaScript.
 
-**File:** `latihan7_switch.html`
-
-```html
-<script>
-  let hari = prompt("Masukkan nama hari:");
-  switch (hari.toLowerCase()) {
-    case "senin": alert("Hari kerja pertama!"); break;
-    case "sabtu": alert("Akhir pekan!"); break;
-    case "minggu": alert("Hari libur!"); break;
-    default: alert("Hari tidak dikenali!");
-  }
-</script>
-```
-
-📘 **Penjelasan:**
-`switch` digunakan untuk memeriksa beberapa kondisi sekaligus dengan lebih efisien daripada `if...else`.
-
-📸 **Screenshot Hasil:**
-
-
-
-
-
-> ---
+![aritmatika](gambar/aritmatika.png)
 
 ---
 
-### 🧍‍♂️ **8️⃣ Tugas Akhir – Validasi Form**
+## 7. if-else.html
+Menjelaskan struktur **percabangan** `if` dan `else` yang digunakan untuk mengambil keputusan berdasarkan kondisi tertentu.
 
-**File:** `form_validasi.html`
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Validasi Form dengan JavaScript</title>
-</head>
-<body>
-  <h2>Form Validasi JavaScript</h2>
-
-  <form id="formData" onsubmit="return validasiForm()">
-    <label>Nama:</label><br>
-    <input type="text" id="nama" placeholder="Masukkan nama Anda"><br><br>
-
-    <label>Email:</label><br>
-    <input type="email" id="email" placeholder="contoh@email.com"><br><br>
-
-    <label>Umur:</label><br>
-    <input type="number" id="umur" placeholder="Masukkan umur Anda"><br><br>
-
-    <button type="submit">Kirim</button>
-  </form>
-
-  <script>
-    function validasiForm() {
-      let nama = document.getElementById("nama").value.trim();
-      let email = document.getElementById("email").value.trim();
-      let umur = document.getElementById("umur").value.trim();
-
-      if (nama === "" || email === "" || umur === "") {
-        alert("❌ Semua field wajib diisi!");
-        return false;
-      }
-
-      let emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-      if (!email.match(emailPattern)) {
-        alert("⚠️ Format email tidak valid!");
-        return false;
-      }
-
-      if (umur < 18) {
-        alert("🚫 Umur minimal adalah 18 tahun!");
-        return false;
-      }
-
-      alert("✅ Data berhasil dikirim! Terima kasih, " + nama + ".");
-      return true;
-    }
-  </script>
-</body>
-</html>
-```
-
-📘 **Penjelasan Tugas:**
-
-| Elemen                             | Fungsi                                                      |
-| ---------------------------------- | ----------------------------------------------------------- |
-| `onsubmit="return validasiForm()"` | Menjalankan fungsi sebelum data dikirim.                    |
-| `trim()`                           | Menghapus spasi kosong agar input tidak dianggap isi palsu. |
-| `emailPattern`                     | Regex untuk validasi format email.                          |
-| `if (umur < 18)`                   | Menolak data jika umur di bawah 18 tahun.                   |
-| `alert()`                          | Menampilkan hasil validasi (salah atau benar).              |
-
-📸 **Screenshot Hasil:**
-
-> <img src="picture/validasi.png">
-> <img src="picture/validasi1.png">
-> ---
-
-### 🧮 **9️⃣ HTML DOM – CheckBox Otomatis**
-
-**File:** `latihan9_checkbox.html`
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CheckBox Otomatis</title>
-</head>
-<body>
-  <h2>daftar menu makanan:</h2>
-
-  <input type="checkbox" name="makanan" value="Nasi Goreng" onclick="hitungTotal()"> pecel lele <br>
-  <input type="checkbox" name="makanan" value="Bakso" onclick="hitungTotal()"> Bakso <br>
-  <input type="checkbox" name="makanan" value="Sate" onclick="hitungTotal()"> Sate <br>
-  <input type="checkbox" name="makanan" value="Mie Ayam" onclick="hitungTotal()"> Mie Ayam <br><br>
-
-  <p>Total item dipilih: <span id="total">0</span></p>
-
-  <script>
-    function hitungTotal() {
-      let checkbox = document.querySelectorAll('input[name="makanan"]:checked');
-      document.getElementById("total").innerText = checkbox.length;
-    }
-  </script>
-</body>
-</html>
-```
-
-📘 **Penjelasan:**
-
-* Menggunakan **HTML DOM** untuk menghitung jumlah checkbox yang dicentang.
-* `querySelectorAll('input[name="makanan"]:checked')` mengambil semua checkbox yang dipilih.
-* Nilai total ditampilkan langsung melalui elemen `<span id="total">`.
-
-📸 **Screenshot Hasil:**
-
-> <img src="picture/checkbox.png">
-> ---
+![if-else](gambar/if-else.png)
 
 ---
 
-### 📂 **10️⃣ Eksternal JavaScript**
+## 8. operator switch.html
+Menunjukkan cara kerja **statement `switch`**, yang digunakan untuk menggantikan banyak `if-else` ketika ada beberapa kondisi berbeda yang harus diuji.
 
-**File:** `eksternal.js`
-
-```javascript
-document.write("Hello World dari file eksternal.js<br>");
-console.log("Pesan dari eksternal JavaScript!");
-```
-
-**File HTML yang memanggil eksternal.js:**
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Eksternal JavaScript</title>
-  <script src="eksternal.js"></script>
-</head>
-<body>
-  <h2>Contoh JavaScript Eksternal</h2>
-</body>
-</html>
-```
-
-📘 **Penjelasan:**
-
-* File `.js` eksternal memungkinkan kita memisahkan logika JavaScript dari struktur HTML.
-* Kelebihan:
-
-  * 📁 Kode lebih rapi dan mudah dikelola.
-  * ⚡ Loading halaman lebih cepat karena cache browser.
-  * 🔁 Dapat digunakan ulang di beberapa halaman.
+![operator switch](gambar/operator%20switch.png)
 
 ---
 
-### ✅ Setelah itu lanjutkan ke bagian:
+## 9. form input.html
+Menampilkan contoh **form HTML** dengan input text yang diolah menggunakan JavaScript untuk menampilkan hasil atau validasi.
 
-👉 **11️⃣ Tugas Akhir – Validasi Form**
-
----![alt text](image.png)
-
-## 📚 **Struktur Folder**
-
-```
-lab5_javascript/
-│
-├── latihan1_hello.html
-├── latihan2_alert.html
-├── latihan3_prompt.html
-├── latihan4_fungsi.html
-├── latihan5_aritmatika.html
-├── latihan6_if_else.html
-├── latihan7_switch.html
-├── form_validasi.html
-└── README.md
-```
+![form input](gambar/form%20input.png)
 
 ---
 
-## 🧾 **Laporan Praktikum**
+## 10. form button.html
+Contoh penggunaan tombol (`button`) dalam form yang terhubung dengan fungsi JavaScript, misalnya menampilkan hasil ketika tombol diklik.
 
-1. 📂 Buat repository **Lab5Web** di GitHub.
-2. 💾 Upload seluruh file latihan dan tugas.
-3. 📸 Masukkan screenshot hasil di README.md sesuai ruang kosong di atas.
-4. 📝 Commit dan Push hasilnya ke GitHub.
-5. 🔗 Kirimkan URL repository ke e-learning Universitas Pelita Bangsa.
+![form button](gambar/form%20button.png)
 
 ---
+
+## 11. checkbox.html
+Menampilkan contoh penggunaan **checkbox** pada form HTML dan bagaimana JavaScript memproses pilihan pengguna.
+
+![checkbox](gambar/checkbox.png)
+
+---
+
+## ✨ Kesimpulan
+Dari seluruh latihan ini, dapat dipahami bahwa JavaScript memiliki peran penting dalam:
+- Menambah interaktivitas pada halaman web,
+- Mengolah data input dari pengguna,
+- Menjalankan logika program seperti kondisi, perulangan, dan fungsi.
+
+---
+
+### 📅 Tugas
+Tugas ini berisi latihan JavaScript untuk menampilkan:
+> **lab5_javascript, javascript dasar, method dalam objek, pemakaian prompt, pembuatan fungsi, aritmatika, if-else, operator switch, form input, form button, dan checkbox.**
+
+---
+
+
+
