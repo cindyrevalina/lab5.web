@@ -79,8 +79,9 @@
 
 📸 **Screenshot Hasil:**
 
-> <img src="picture/prompt1.png">
-><img src="picture/prompt2.png">
+
+<img width="282" height="218" alt="Screenshot 2025-10-21 201433" src="https://github.com/user-attachments/assets/e116b884-2c47-4c31-937e-b12cd9bf744d" />
+
 > ---
 
 ---
@@ -104,7 +105,9 @@ Fungsi `sapa()` dibuat menggunakan keyword `function` dan dijalankan lewat event
 
 📸 **Screenshot Hasil:**
 
-> <img src="picture/fungsi.png">
+
+<img width="767" height="319" alt="Screenshot 2025-10-21 202211" src="https://github.com/user-attachments/assets/18f2a98a-448a-42c1-8fcd-75f80a4dd03c" />
+
 > ---
 
 ---
@@ -128,7 +131,9 @@ Menampilkan operasi matematika dasar dengan dua variabel `a` dan `b`.
 
 📸 **Screenshot Hasil:**
 
-> <img src="picture/aritmatika.png">
+
+<img width="357" height="329" alt="Screenshot 2025-10-21 202909" src="https://github.com/user-attachments/assets/9c5367f4-165d-4cb2-a3a1-4bf2384c3218" />
+
 > ---
 
 ---
